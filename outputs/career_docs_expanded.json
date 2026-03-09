@@ -1,0 +1,702 @@
+[
+  {
+    "doc_id": "doc_041",
+    "text": "A Data Analyst in India is responsible for collecting, cleaning, and interpreting data to help organisations make better decisions. Core responsibilities include writing SQL queries to extract data, building dashboards in Tableau or Power BI, performing cohort analyses, and presenting findings to non-technical stakeholders. Entry-level data analysts typically work with structured data in Excel or SQL databases. Mid-level analysts build automated reporting pipelines and own entire business metrics. Senior analysts influence product and business strategy through data insights. The role is available across all industries — e-commerce, BFSI, healthcare, and SaaS are the largest employers. Python proficiency significantly accelerates career growth. Salary: Entry 4-8 LPA, Mid 12-20 LPA, Senior 22-38 LPA. The role is an excellent entry point into the broader data and AI career cluster.",
+    "metadata": {
+      "doc_id": "doc_041",
+      "source": "Manual",
+      "domain": "Data Analytics & Business Intelligence",
+      "doc_type": "role_description",
+      "role_title": "Data Analyst",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_042",
+    "text": "Business Intelligence Developer builds the reporting infrastructure that organisations use to track performance. Key responsibilities include designing data warehouse schemas, building ETL processes, creating dashboards, and maintaining BI tools. Required skills: SQL (advanced), Power BI or Tableau, data modelling, and increasingly Python for automation. In India, BI roles are common in large enterprises, consulting firms, and GCCs. The role is often a stepping stone to Data Engineering or Analytics Engineering. A critical emerging skill is dbt (data build tool) which bridges BI and data engineering. BI Developers who learn cloud data warehouses (Snowflake, BigQuery) earn significantly more. Salary: Entry 5-9 LPA, Mid 14-22 LPA, Senior 25-40 LPA.",
+    "metadata": {
+      "doc_id": "doc_042",
+      "source": "Manual",
+      "domain": "Data Analytics & Business Intelligence",
+      "doc_type": "role_description",
+      "role_title": "BI Developer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_043",
+    "text": "Transitioning from Excel-heavy business roles to Data Analytics is a common and achievable career move in India. Professionals in finance, operations, or marketing who already work with data have a significant advantage. The recommended pathway takes 4-8 months. Step 1: Learn SQL — Mode Analytics and SQLZoo are free resources. Step 2: Learn Python basics for data analysis — pandas and matplotlib. Step 3: Build a portfolio project using a public dataset relevant to your domain. Step 4: Get a Tableau or Power BI certification. Step 5: Apply for junior data analyst roles emphasising your domain knowledge. The domain expertise is your unfair advantage — a data analyst who understands finance or retail operations is more valuable than a pure tech graduate. Salary jump from business analyst to data analyst is typically 20-40%.",
+    "metadata": {
+      "doc_id": "doc_043",
+      "source": "Manual",
+      "domain": "Data Analytics & Business Intelligence",
+      "doc_type": "transition_path",
+      "role_title": "Data Analyst",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_044",
+    "text": "NLP (Natural Language Processing) Engineer is a specialised ML role focused on building systems that understand and generate human language. In India, NLP engineers are in high demand due to the explosion of conversational AI, document processing, and multilingual applications. Key responsibilities include building text classification systems, named entity recognition, question answering systems, and increasingly fine-tuning large language models. Required skills: Python, PyTorch or TensorFlow, HuggingFace Transformers library, understanding of transformer architecture, and familiarity with vector databases. Multilingual NLP is particularly relevant for India — engineers who can work with Hindi, Tamil, Telugu, and other Indian languages command a premium. Salary: Entry 8-14 LPA, Mid 20-35 LPA, Senior 40-65 LPA at product companies.",
+    "metadata": {
+      "doc_id": "doc_044",
+      "source": "Manual",
+      "domain": "AI & ML",
+      "doc_type": "role_description",
+      "role_title": "NLP Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_045",
+    "text": "Computer Vision Engineer builds systems that enable machines to interpret and understand visual information. Applications in India include surveillance systems, quality control in manufacturing, medical imaging, and autonomous vehicles. Required skills: Python, OpenCV, deep learning frameworks (PyTorch preferred), convolutional neural networks, and model optimisation for deployment. YOLO family models are the industry standard for object detection. Edge deployment using TensorRT or ONNX is increasingly important. Key employers: automotive companies, security firms, healthtech companies, and e-commerce for visual search. Salary: Entry 7-12 LPA, Mid 18-32 LPA, Senior 35-60 LPA. Combination of computer vision and GenAI skills is extremely rare and highly compensated.",
+    "metadata": {
+      "doc_id": "doc_045",
+      "source": "Manual",
+      "domain": "AI & ML",
+      "doc_type": "role_description",
+      "role_title": "Computer Vision Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_046",
+    "text": "AI Research Engineer bridges academic research and production engineering. Unlike pure researchers who publish papers, AI Research Engineers implement novel techniques in scalable systems. This role is available at the India R&D centres of Google, Microsoft, Amazon, Meta, and at AI-first startups. Requirements: strong fundamentals in ML theory, ability to read and implement research papers, software engineering skills, and typically at least a Masters degree. Publications or contributions to open source ML projects significantly strengthen candidacy. These roles pay at the top of the industry spectrum — 35-80 LPA depending on experience and company. The career path often involves a PhD, but strong engineers with Masters degrees and excellent publication records do break in. IIT and IISc graduates dominate this space in India.",
+    "metadata": {
+      "doc_id": "doc_046",
+      "source": "Manual",
+      "domain": "AI & ML",
+      "doc_type": "role_description",
+      "role_title": "AI Research Engineer",
+      "experience_level": "Senior",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_047",
+    "text": "Karan was a mechanical engineer from a Tier-2 college who felt completely misaligned with his job at an auto parts manufacturer. At 26, he decided to pivot to data science. He had no computer science background but was strong at mathematics. He spent 10 months on a structured self-study plan: first completing Andrew Ng's ML course, then building 3 projects on Kaggle, then learning SQL and Python deeply. He applied to 40 companies and got his first data science role at a logistics startup. His salary went from 4.5 LPA to 9 LPA. The key insight from his journey: domain knowledge from manufacturing gave him unique project ideas — he built a predictive maintenance model as his portfolio project which was far more impressive than the typical Titanic survival project. By year 3, he was earning 22 LPA.",
+    "metadata": {
+      "doc_id": "doc_047",
+      "source": "Manual",
+      "domain": "AI & ML",
+      "doc_type": "career_story",
+      "role_title": "Data Scientist",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_048",
+    "text": "Cloud Security Engineer is one of the most in-demand specialisations in cybersecurity. As Indian enterprises migrate workloads to AWS, Azure, and GCP, securing cloud infrastructure has become critical. Responsibilities include configuring IAM policies, setting up security monitoring, conducting cloud penetration tests, and ensuring compliance with regulations. Required skills: deep knowledge of at least one cloud platform's security services (AWS Security Hub, Azure Sentinel, GCP Security Command Center), understanding of zero-trust architecture, network security fundamentals, and scripting in Python. Certifications: AWS Security Specialty or AZ-500 (Azure Security). This role commands significant premiums — 25-40% over standard cloud engineers. Salary: Mid 20-35 LPA, Senior 40-65 LPA. Demand is outpacing supply significantly.",
+    "metadata": {
+      "doc_id": "doc_048",
+      "source": "Manual",
+      "domain": "Cybersecurity",
+      "doc_type": "role_description",
+      "role_title": "Cloud Security Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_049",
+    "text": "Security Operations Centre (SOC) Analyst is the most accessible entry point into cybersecurity in India. Level 1 SOC analysts monitor security dashboards, triage alerts, and escalate incidents. The work is shift-based and can involve night shifts. It is not glamorous but provides essential hands-on exposure to real-world threats. Required skills: basic networking, familiarity with SIEM tools (Splunk, IBM QRadar, Microsoft Sentinel), understanding of common attack patterns, and incident response basics. Salary: Entry Level 1 SOC: 4-7 LPA. Level 2 SOC (with 2 years experience): 8-14 LPA. The SOC analyst path progresses to Incident Responder, Threat Intelligence Analyst, then Security Engineer. IT services companies like TCS, HCL, and Wipro have large managed security service practices that hire SOC analysts in volume.",
+    "metadata": {
+      "doc_id": "doc_049",
+      "source": "Manual",
+      "domain": "Cybersecurity",
+      "doc_type": "role_description",
+      "role_title": "SOC Analyst",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_050",
+    "text": "Cybersecurity market trends in India 2025-2026: India experienced over 2 billion cyberattacks in 2024, driving massive investment in security. RBI, SEBI, and CERT-In have all issued new compliance mandates requiring organisations to have dedicated security teams. The Indian cybersecurity market is expected to grow at 18% CAGR through 2028. Key demand areas: cloud security, application security (AppSec), identity and access management (IAM), and ransomware response. The talent shortage is severe — India has only 2.1 lakh cybersecurity professionals against a demand of 10 lakh. This makes it one of the safest career choices from a job security perspective. Freshers with CEH certification and a demonstrated home lab get jobs within 3-6 months of serious job searching.",
+    "metadata": {
+      "doc_id": "doc_050",
+      "source": "Manual",
+      "domain": "Cybersecurity",
+      "doc_type": "industry_trend",
+      "role_title": null,
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_051",
+    "text": "Senior Product Manager career progression in India: the PM ladder typically goes APM → PM → Senior PM → Group PM → Director of Product → VP Product → CPO. Each step requires demonstrating larger scope: APMs own features, PMs own products, Senior PMs own product lines, Group PMs lead multiple PMs, Directors own entire product areas. In Indian companies, the Senior PM to Group PM transition is the hardest — it requires moving from being a strong individual contributor to leading other PMs. Executive presence, storytelling ability, and business acumen matter more than technical skills at this stage. Senior PMs at top Indian tech companies (Flipkart, Swiggy, Zepto, Meesho) earn 35-60 LPA. Group PMs earn 55-90 LPA. VP Product roles at unicorns are compensated 80-150 LPA including equity.",
+    "metadata": {
+      "doc_id": "doc_051",
+      "source": "Manual",
+      "domain": "Product Management",
+      "doc_type": "transition_path",
+      "role_title": "Senior Product Manager",
+      "experience_level": "Senior",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_052",
+    "text": "Technical Trainer at EdTech companies: responsible for delivering live and recorded training sessions on technical subjects, creating assessments, mentoring learners, and iterating on content based on learner feedback. Companies like Simplilearn, upGrad, Scaler, and Coding Ninjas hire technical trainers extensively. The role suits engineers who enjoy teaching but are not ready for curriculum design — it is the most accessible entry into EdTech. Requirements: strong communication skills, deep subject matter expertise, willingness to be on camera, and patience with beginners. Work hours are flexible — many trainers work part-time initially. Full-time trainer salary: 4-10 LPA. Senior trainers who build large cohort followings and transition to curriculum leadership earn 12-20 LPA. This is an excellent first step for engineers transitioning to education.",
+    "metadata": {
+      "doc_id": "doc_052",
+      "source": "Manual",
+      "domain": "EdTech & Technical Education",
+      "doc_type": "role_description",
+      "role_title": "Technical Trainer",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_053",
+    "text": "Physics Wallah (PW) is one of India's most successful EdTech companies with over 10 million paid learners. It has created hundreds of technical educator jobs across physics, chemistry, mathematics, and increasingly computer science and data science. PW's model is built on highly engaging educators who combine deep subject knowledge with relatable teaching styles. Engineers who join PW as technical educators get exposure to massive-scale content delivery — a single PW video can reach 2 million views. Career path at PW: Educator → Senior Educator → Subject Head → Academic Director. The company promotes from within aggressively. For engineers burned out from software development, PW and similar companies offer a meaningful career with direct student impact. The company is headquartered in Noida but has studios across India.",
+    "metadata": {
+      "doc_id": "doc_053",
+      "source": "Manual",
+      "domain": "EdTech & Technical Education",
+      "doc_type": "industry_trend",
+      "role_title": "Technical Educator",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_054",
+    "text": "Instructional Design is the science of creating effective learning experiences. Instructional Designers (IDs) in EdTech work alongside subject matter experts to structure courses, create assessments, ensure learning outcomes are measurable, and apply adult learning theory. This is a natural fit for engineers who enjoy systematic thinking and want a less technical career path. Required skills: familiarity with ADDIE or SAM instructional design models, LMS platforms (Moodle, Canvas, custom platforms), basic video production, and strong writing. Instructional Designers with technical backgrounds are particularly valued in tech education companies. Salary: Entry 4-8 LPA, Mid 10-16 LPA, Senior 18-28 LPA. The role provides excellent work-life balance and is increasingly remote-friendly.",
+    "metadata": {
+      "doc_id": "doc_054",
+      "source": "Manual",
+      "domain": "EdTech & Technical Education",
+      "doc_type": "role_description",
+      "role_title": "Instructional Designer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_055",
+    "text": "Vikram was a senior software engineer with 7 years of experience who became a parent at 32 and realised his 60-hour work weeks were unsustainable. He had always enjoyed mentoring juniors and explaining concepts clearly. He applied to Scaler Academy as a mentor while keeping his full-time job. Within 6 months of part-time mentoring, Scaler offered him a full-time Curriculum Lead role at 75% of his current salary. He accepted. Three years later his salary had fully recovered, he worked from home 4 days a week, attended all his child's school events, and reported the highest life satisfaction of his career. His technical credibility from production experience made his curriculum exceptionally practical — students rated his content highest in the program. He was promoted to Head of Data Science Curriculum within 2 years.",
+    "metadata": {
+      "doc_id": "doc_055",
+      "source": "Manual",
+      "domain": "EdTech & Technical Education",
+      "doc_type": "career_story",
+      "role_title": "Curriculum Lead",
+      "experience_level": "Senior",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_056",
+    "text": "EdTech market in India is the second largest in the world after the US. The market is valued at $6 billion in 2025 and growing at 20% annually. Key segments: K-12 (Physics Wallah, BYJU's), higher education upskilling (upGrad, Coursera India), coding education (Scaler, Coding Ninjas, Newton School), and professional certification (Simplilearn, Great Learning). The 2022-2023 EdTech funding winter led to significant layoffs at BYJU's and other over-leveraged companies. The market has since stabilised around profitable, learner-outcome focused models. Physics Wallah, Scaler, and upGrad are the current growth leaders. New opportunity: AI-powered personalised learning is creating demand for engineers who can build adaptive learning systems. Companies with profitable unit economics are hiring aggressively.",
+    "metadata": {
+      "doc_id": "doc_056",
+      "source": "Manual",
+      "domain": "EdTech & Technical Education",
+      "doc_type": "industry_trend",
+      "role_title": null,
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_057",
+    "text": "Site Reliability Engineer (SRE) is a discipline that applies software engineering principles to infrastructure and operations. SREs write code to automate operational tasks, define SLOs (Service Level Objectives), manage incident response, and improve system reliability. This role was pioneered by Google and has become standard at product companies. Required skills: Linux systems administration, programming in Python or Go, cloud platforms, Kubernetes, monitoring tools (Prometheus, Grafana, Datadog), and incident management. SREs earn a premium over DevOps engineers due to stronger software engineering expectations. Salary: Mid 20-35 LPA, Senior 38-65 LPA. The career path from SRE often leads to Platform Engineering or Engineering Management. Google, Microsoft, and Amazon India offices are the most desirable SRE employers.",
+    "metadata": {
+      "doc_id": "doc_057",
+      "source": "Manual",
+      "domain": "Cloud & DevOps",
+      "doc_type": "role_description",
+      "role_title": "Site Reliability Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_058",
+    "text": "Platform Engineer builds the internal developer platforms that product engineering teams use to deploy and operate their services. This is an emerging role that sits between DevOps and software engineering. Platform engineers build developer portals, self-service infrastructure tools, and internal APIs that reduce the operational burden on product teams. Required skills: Kubernetes, Backstage (developer portal), infrastructure as code (Terraform, Pulumi), Go or Python, and strong developer empathy. This is considered the evolution of DevOps at scale. Salary: Mid 22-38 LPA, Senior 40-70 LPA. The role is currently most common at large product companies and GCCs with 200+ engineers. As platform engineering adoption grows, demand will spread to mid-size companies.",
+    "metadata": {
+      "doc_id": "doc_058",
+      "source": "Manual",
+      "domain": "Cloud & DevOps",
+      "doc_type": "role_description",
+      "role_title": "Platform Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_059",
+    "text": "React Developer is one of the most in-demand frontend roles in India. Responsibilities include building interactive user interfaces, integrating with backend APIs, optimising application performance, and maintaining component libraries. The React ecosystem in India has matured — senior React developers are expected to know TypeScript, Next.js, state management (Redux, Zustand), and testing (Jest, React Testing Library). The transition from jQuery or AngularJS to React is straightforward for experienced frontend developers. Freshers who build strong React portfolios with TypeScript and Next.js get offers in the 5-10 LPA range at good companies. Senior React developers at product companies earn 22-40 LPA. Next.js expertise specifically is in highest demand due to its SEO and performance advantages.",
+    "metadata": {
+      "doc_id": "doc_059",
+      "source": "Manual",
+      "domain": "Full Stack Web Development",
+      "doc_type": "role_description",
+      "role_title": "React Developer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_060",
+    "text": "Backend Engineer in India: builds server-side logic, APIs, databases, and the systems that power applications. The most common backend stacks in Indian companies are Node.js (JavaScript/TypeScript), Java (Spring Boot), Python (Django/FastAPI), and Go. Microservices architecture is the dominant pattern at scale. Required skills vary by stack but universally include: system design, database design (SQL and NoSQL), REST and GraphQL APIs, caching (Redis), message queues (Kafka, RabbitMQ), and cloud deployment. System design interviews are the most critical component for backend engineering roles at product companies — candidates who cannot design scalable systems fail regardless of coding ability. Resources: Grokking System Design, Alex Xu's System Design Interview books. Salary: Entry 5-10 LPA, Mid 16-28 LPA, Senior 30-55 LPA.",
+    "metadata": {
+      "doc_id": "doc_060",
+      "source": "Manual",
+      "domain": "Full Stack Web Development",
+      "doc_type": "role_description",
+      "role_title": "Backend Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_061",
+    "text": "Blockchain Developer is a niche but growing role in India, primarily in FinTech, supply chain, and government digital identity projects. The National Blockchain Framework and various state government initiatives have created demand. Required skills: Solidity (for Ethereum), understanding of consensus mechanisms, smart contract security, and Web3 libraries. The space is volatile — developer demand dropped significantly during the 2022 crypto winter but has recovered partially. Practical applications in India focus on non-cryptocurrency use cases: land registry, supply chain transparency, and financial inclusion. Hyperledger Fabric is used more in enterprise contexts than public blockchains. Salary: Mid 15-28 LPA, Senior 30-50 LPA. Career risk: the technology is still maturing and job market is smaller than mainstream roles.",
+    "metadata": {
+      "doc_id": "doc_061",
+      "source": "Manual",
+      "domain": "FinTech & Banking Technology",
+      "doc_type": "role_description",
+      "role_title": "Blockchain Developer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_062",
+    "text": "Payments engineer is a specialised backend role in FinTech focused on building and maintaining payment systems. India's UPI ecosystem is the most advanced in the world and creates unique opportunities. Responsibilities include integrating with payment gateways, building reconciliation systems, ensuring PCI-DSS compliance, and optimising transaction success rates. Required skills: strong backend engineering fundamentals, understanding of financial systems and reconciliation, API integration expertise, and knowledge of RBI regulations. The stakes are extremely high — payment systems handle real money and bugs have immediate financial consequences. This creates a premium for experienced payments engineers. Salary: Mid 18-32 LPA, Senior 35-60 LPA. Companies: Razorpay, PayU, Cashfree, Juspay, and all major banks' technology arms.",
+    "metadata": {
+      "doc_id": "doc_062",
+      "source": "Manual",
+      "domain": "FinTech & Banking Technology",
+      "doc_type": "role_description",
+      "role_title": "Payments Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_063",
+    "text": "Risk Analyst in banking and financial services: evaluates potential financial risks including credit risk, market risk, and operational risk. In India, risk roles are concentrated in Mumbai's banking and financial services sector. Required skills: statistical modelling, knowledge of risk frameworks (Basel III, IFRS 9), SQL, Python or R, and domain knowledge of financial products. The role is increasingly technical — model validation and quantitative risk analysis are growing components. Salary: Entry 5-9 LPA, Mid 14-24 LPA, Senior 28-50 LPA. FRM (Financial Risk Manager) certification is the industry standard credential. Engineers transitioning into risk management bring valuable quantitative skills that complement traditional finance graduates. The stability of banking sector roles makes this an attractive option for risk-averse career changers.",
+    "metadata": {
+      "doc_id": "doc_063",
+      "source": "Manual",
+      "domain": "FinTech & Banking Technology",
+      "doc_type": "role_description",
+      "role_title": "Risk Analyst",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_064",
+    "text": "UX Researcher is a distinct career path from UI design focused on understanding user needs, behaviours, and pain points. Research methods include user interviews, usability testing, surveys, card sorting, and diary studies. UX Research is underrepresented in India compared to Western markets — most Indian companies combine design and research, but large product companies (Flipkart, Swiggy, Amazon India) have dedicated research teams. Required skills: research methodology, interview facilitation, synthesis and insight generation, quantitative analysis, and stakeholder communication. Engineers who transition to UX research bring quantitative rigour that complements qualitative methods. Salary: Entry 5-10 LPA, Mid 14-24 LPA, Senior 25-45 LPA at product companies. This is a low-stress, high-impact career path.",
+    "metadata": {
+      "doc_id": "doc_064",
+      "source": "Manual",
+      "domain": "UI/UX Design",
+      "doc_type": "role_description",
+      "role_title": "UX Researcher",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_065",
+    "text": "Design Systems Engineer bridges design and engineering — responsible for building and maintaining the component library that both designers and developers use. This role requires strong frontend engineering skills (React, TypeScript, CSS) combined with design sensibility. Design Systems Engineers at large companies maintain hundreds of reusable components used across multiple products. This is one of the highest-paying frontend roles due to its cross-functional impact. Required: strong React and TypeScript, understanding of accessibility standards (WCAG), design token systems, and documentation skills. Storybook is the standard tool. Salary: Mid 18-30 LPA, Senior 32-55 LPA. Roles available at companies with large design teams — Flipkart, Razorpay, Freshworks, and GCCs.",
+    "metadata": {
+      "doc_id": "doc_065",
+      "source": "Manual",
+      "domain": "UI/UX Design",
+      "doc_type": "role_description",
+      "role_title": "Design Systems Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_066",
+    "text": "Clinical Data Scientist applies data science and machine learning to healthcare problems. In India, this role is emerging at hospitals, pharma companies, and healthtech startups. Responsibilities include analysing electronic health records, building predictive models for disease risk, and working with clinical teams to translate data insights into care improvements. Required skills: Python, R, statistical modelling, knowledge of healthcare data standards (HL7, FHIR), and understanding of clinical trial methodology. The role requires navigating both technical and regulatory complexity. Salary is lower than pure tech data science (8-18 LPA at entry/mid) but the work is deeply meaningful. The Ayushman Bharat Digital Mission is creating a national health data infrastructure that will significantly increase demand for this role.",
+    "metadata": {
+      "doc_id": "doc_066",
+      "source": "Manual",
+      "domain": "Healthcare IT & Health Tech",
+      "doc_type": "role_description",
+      "role_title": "Clinical Data Scientist",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_067",
+    "text": "Telemedicine and digital health platform development: Indian healthtech companies like Practo, 1mg, Mfine, and Apollo 24/7 are building technology platforms that connect patients with doctors remotely. Engineering roles at these companies require standard software skills plus understanding of healthcare workflows and regulations. The Digital Personal Data Protection Act (DPDPA) 2023 creates strict requirements for health data handling. Engineers at healthtech companies frequently interface with doctors and clinical staff — interpersonal skills and empathy are as important as technical skills. The work is meaningful — technology directly improves patient access to care. Salary is slightly below pure tech but the mission-driven culture attracts engineers who prioritise purpose over maximum compensation.",
+    "metadata": {
+      "doc_id": "doc_067",
+      "source": "Manual",
+      "domain": "Healthcare IT & Health Tech",
+      "doc_type": "industry_trend",
+      "role_title": null,
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_068",
+    "text": "SEO Specialist with technical background: technical SEO is a role that sits between engineering and marketing. Responsibilities include optimising site architecture for search crawlers, improving Core Web Vitals, implementing structured data, managing XML sitemaps, and conducting technical audits. Engineers who learn SEO fundamentals can transition into this role within 3-4 months. The value of technical knowledge is immense — most SEO professionals cannot code, so an engineer who understands both is extremely valuable. Tools: Screaming Frog, Google Search Console, Ahrefs, SEMrush. Salary: Mid 8-16 LPA, Senior 18-30 LPA. Career path leads to Head of SEO or broader digital marketing leadership. This is an underrated career path for engineers who want lower stress and more creative work.",
+    "metadata": {
+      "doc_id": "doc_068",
+      "source": "Manual",
+      "domain": "Digital Marketing & Growth",
+      "doc_type": "role_description",
+      "role_title": "SEO Specialist",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_069",
+    "text": "Engineering Manager transition from Senior Engineer: the move from individual contributor to engineering manager is one of the most significant career transitions in tech. In India, this typically happens at 7-10 years of experience. The role shifts from writing code to enabling a team of engineers to do their best work. Responsibilities include hiring, performance management, project planning, cross-functional collaboration, and technical strategy. The biggest adjustment is psychological — engineers who derived identity from code quality must shift their measure of success to team outcomes. The transition requires developing new skills: giving feedback, running 1:1s, conflict resolution, and executive communication. Salary: Engineering Managers at product companies earn 35-60 LPA. Director and VP Engineering roles earn 60-120 LPA.",
+    "metadata": {
+      "doc_id": "doc_069",
+      "source": "Manual",
+      "domain": "GCC & Global Delivery Leadership",
+      "doc_type": "transition_path",
+      "role_title": "Engineering Manager",
+      "experience_level": "Leadership",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_070",
+    "text": "Embedded Systems Engineer works on hardware-software interfaces — writing firmware for microcontrollers, real-time operating systems, and low-level drivers. In India this role is concentrated at automotive companies (Bosch, Continental, Tata Elxsi), semiconductor companies (Qualcomm, Texas Instruments), and defence/aerospace companies. Required skills: C/C++, RTOS (FreeRTOS, VxWorks), microcontroller programming (ARM Cortex), circuit basics, and debugging tools (JTAG, oscilloscope). The emerging opportunity is TinyML — running ML models on resource-constrained embedded devices. Engineers who combine traditional embedded skills with ML knowledge are in very high demand. Salary: Entry 5-9 LPA, Mid 14-24 LPA, Senior 28-50 LPA. Automotive embedded roles in Pune and Bangalore pay the highest.",
+    "metadata": {
+      "doc_id": "doc_070",
+      "source": "Manual",
+      "domain": "Embedded Systems & IoT",
+      "doc_type": "role_description",
+      "role_title": "Embedded Systems Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_071",
+    "text": "IoT Developer builds connected device systems — sensors, actuators, communication protocols, and cloud backends. In India, IoT is growing in industrial automation, smart cities, agriculture (precision farming), and smart home segments. Required skills: embedded programming (C/C++, MicroPython), IoT protocols (MQTT, CoAP, LoRaWAN), cloud IoT platforms (AWS IoT, Azure IoT Hub), and basic electronics. The agriculture IoT segment is uniquely Indian — low-cost sensor networks for irrigation management and crop monitoring are a growing application. Salary: Entry 4-8 LPA, Mid 12-20 LPA, Senior 22-38 LPA. Startup and research opportunities are significant — many IoT startups are based in Pune, Bangalore, and Hyderabad.",
+    "metadata": {
+      "doc_id": "doc_071",
+      "source": "Manual",
+      "domain": "Embedded Systems & IoT",
+      "doc_type": "role_description",
+      "role_title": "IoT Developer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_072",
+    "text": "VLSI Design Engineer works on the design and verification of integrated circuits (chips). India has a growing semiconductor ecosystem with Intel, Qualcomm, AMD, NVIDIA, and Arm all having large design centres in Bangalore and Hyderabad. Required skills: Verilog/VHDL, understanding of digital logic design, EDA tools (Cadence, Synopsys), and either RTL design or verification specialisation. The Indian government's semiconductor mission (India Semiconductor Mission) is investing heavily in building domestic chip design capability. This creates growing demand. However, the domain has a high barrier to entry — it is almost exclusively the domain of ECE graduates from Tier-1 institutions. Salary: Entry 6-10 LPA, Mid 16-28 LPA, Senior 30-55 LPA. Significant equity upside at well-funded chip startups.",
+    "metadata": {
+      "doc_id": "doc_072",
+      "source": "Manual",
+      "domain": "Embedded Systems & IoT",
+      "doc_type": "role_description",
+      "role_title": "VLSI Design Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_073",
+    "text": "Financial Analyst career in India: financial analysts work in investment banking, corporate finance, equity research, and treasury functions. The role involves financial modelling, valuation, industry research, and investment recommendation. Required skills: Excel (advanced financial modelling), PowerPoint, financial statement analysis, valuation methods (DCF, comparable companies), and Bloomberg Terminal. CFA is the gold standard certification — Level 1 alone significantly improves job prospects. In India, Mumbai is the financial capital with the highest concentration of financial analyst roles. Investment banking at top firms (Goldman Sachs, Morgan Stanley, JPMorgan India) pays 15-25 LPA for analysts. Equity research and corporate finance pay 8-18 LPA at entry level.",
+    "metadata": {
+      "doc_id": "doc_073",
+      "source": "Manual",
+      "domain": "Finance & Investment",
+      "doc_type": "role_description",
+      "role_title": "Financial Analyst",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_074",
+    "text": "Supply Chain Analyst role in India: responsible for analysing inventory levels, transportation costs, supplier performance, and demand forecasting. Companies like Amazon, Flipkart, Reliance Retail, and all major FMCG companies employ supply chain analysts. The role is becoming increasingly quantitative — ML-based demand forecasting and network optimisation models are standard tools. Required skills: Excel, SQL, Python basics, understanding of supply chain concepts (EOQ, safety stock, supplier management), and ERP systems. Engineers from mechanical or industrial engineering backgrounds have a natural advantage. Salary: Entry 4-8 LPA, Mid 12-20 LPA, Senior 22-38 LPA. The role provides stability and clear career progression toward Supply Chain Manager and Director of Operations.",
+    "metadata": {
+      "doc_id": "doc_074",
+      "source": "Manual",
+      "domain": "Supply Chain & Operations Tech",
+      "doc_type": "role_description",
+      "role_title": "Supply Chain Analyst",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_075",
+    "text": "HR Technology consultant helps organisations select, implement, and optimise HR software platforms. With the explosion of HRMS platforms (Darwinbox, Keka, Zoho People, SAP SuccessFactors), there is significant demand for people who understand both HR processes and technology. Engineers who pivot to HR tech consulting bring implementation and configuration skills that pure HR professionals lack. Required skills: HR process knowledge, HRMS platform expertise, change management, and client communication. The role is available at HR software companies, Big 4 consulting firms, and as an independent consultant. Salary: Mid 10-18 LPA, Senior 20-35 LPA. This is an underexplored transition path for engineers burned out from pure development work who want more human-centered work.",
+    "metadata": {
+      "doc_id": "doc_075",
+      "source": "Manual",
+      "domain": "HR Technology & People Analytics",
+      "doc_type": "role_description",
+      "role_title": "HR Tech Consultant",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_076",
+    "text": "People Analytics Lead uses data to improve HR decision-making — workforce planning, attrition prediction, hiring funnel optimisation, and compensation benchmarking. This is a specialised data role at the intersection of HR and analytics. Required skills: Python or R, SQL, statistical modelling, HR domain knowledge, and storytelling with data. The role is available at large enterprises with 1000+ employees. In India, Bangalore-based tech companies and GCCs are the primary employers. The ethical dimensions are significant — analysing employee data requires strict privacy standards and unbiased methodology. Salary: Mid 14-22 LPA, Senior 24-40 LPA. This is an excellent path for data professionals who want to work in a less competitive domain than pure ML.",
+    "metadata": {
+      "doc_id": "doc_076",
+      "source": "Manual",
+      "domain": "HR Technology & People Analytics",
+      "doc_type": "role_description",
+      "role_title": "People Analytics Lead",
+      "experience_level": "Senior",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_077",
+    "text": "Legal Tech in India is an emerging field at the intersection of law and technology. With the Digital Personal Data Protection Act (DPDPA) 2023, all companies handling Indian user data must comply with new privacy regulations. This creates demand for compliance technologists — professionals who understand both legal requirements and technical implementation. Required skills: understanding of DPDPA, GDPR, contract law basics, privacy engineering concepts, and project management. Engineers who add legal knowledge through courses or certifications (CIPP/A) are entering a very underserved market. Salary: Mid 12-22 LPA, Senior 25-45 LPA. The IP (Intellectual Property) technology market is also growing — patent analytics, prior art search, and trademark monitoring tools are creating technical roles in IP firms.",
+    "metadata": {
+      "doc_id": "doc_077",
+      "source": "Manual",
+      "domain": "Legal Tech & Compliance",
+      "doc_type": "industry_trend",
+      "role_title": null,
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_078",
+    "text": "Game Developer in India: the Indian gaming industry is growing rapidly with Mobile Premier League (MPL), Dream11, and dozens of casual and mid-core game studios. Unity is the dominant engine for mobile games; Unreal Engine for console and PC titles. India's gaming market is primarily mobile and primarily casual, which shapes hiring. Required skills: Unity or Unreal Engine, C# or C++, game design principles, physics simulation, and performance optimisation for low-end Android devices (critical for India's market). Salary: Entry 4-8 LPA, Mid 12-20 LPA, Senior 22-38 LPA. The work is creative and engaging but studios can have crunch culture. Bangalore and Pune are the main gaming hubs. International studios (Ubisoft, EA, Zynga) have India offices and pay significantly more.",
+    "metadata": {
+      "doc_id": "doc_078",
+      "source": "Manual",
+      "domain": "Gaming & Interactive Media",
+      "doc_type": "role_description",
+      "role_title": "Game Developer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_079",
+    "text": "Content creator and technical blogger career path: engineers who can communicate complex technical concepts clearly have a significant platform opportunity in India. Technical content on YouTube (Hindi and English), newsletters, and LinkedIn creates audiences that convert into consulting, teaching, and job opportunities. Channels covering system design, machine learning, and competitive programming have built audiences of 100,000+ in India. The monetisation timeline is typically 12-18 months to meaningful income. Full-time creator income for technical channels: 5-20 LPA from ad revenue plus 10-30 LPA from courses and sponsorships for large channels. The creator path works best as a side project initially — building audience while employed reduces financial risk. Engineers with strong YouTube or newsletter presence are treated as thought leaders in job interviews.",
+    "metadata": {
+      "doc_id": "doc_079",
+      "source": "Manual",
+      "domain": "Content & Creator Economy",
+      "doc_type": "transition_path",
+      "role_title": "Technical Content Creator",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_080",
+    "text": "Entrepreneurship in Indian tech: India is the world's third largest startup ecosystem. The Bangalore, Delhi NCR, and Mumbai ecosystems have collectively produced 100+ unicorns. For engineers wanting to start companies, the current best opportunities are in AI-first products, B2B SaaS, climate tech, and agritech. The Startup India initiative provides tax benefits and regulatory simplifications. Access to funding has tightened since 2022 but seed funding for strong founding teams with clear market insight is still available. The risk profile: 90% of startups fail within 5 years. The expected value calculation favors entrepreneurship primarily for those with high risk tolerance, savings buffer, and a genuinely differentiated idea. Joining an early-stage startup as employee number 5-20 with meaningful equity is often a better risk-adjusted path than founding.",
+    "metadata": {
+      "doc_id": "doc_080",
+      "source": "Manual",
+      "domain": "Entrepreneurship & Startups",
+      "doc_type": "industry_trend",
+      "role_title": null,
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_081",
+    "text": "Digital transformation consultant helps traditional companies adopt technology — moving from paper processes to digital, implementing ERP systems, and building data capabilities. This is a high-demand role as Indian manufacturing, retail, and BFSI companies accelerate technology adoption. Engineers with domain expertise in a specific industry (manufacturing, retail, BFSI) who add consulting skills become extremely valuable advisors. Required: strong communication, project management, change management, technology architecture understanding, and Excel/PowerPoint proficiency. Consulting firms (Deloitte, PwC, Accenture, KPMG) are the primary employers. Salary: Mid 14-24 LPA, Senior 28-50 LPA. This is an excellent path for engineers who enjoy variety — each client project brings a new domain and challenge.",
+    "metadata": {
+      "doc_id": "doc_081",
+      "source": "Manual",
+      "domain": "Consulting & Strategy",
+      "doc_type": "role_description",
+      "role_title": "Digital Transformation Consultant",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_082",
+    "text": "Structural Engineer in India works on designing and analysing load-bearing structures for buildings, bridges, and infrastructure. The role is predominantly in construction and infrastructure companies. Required skills: structural analysis software (STAAD Pro, ETABS), AutoCAD, understanding of IS codes, and site inspection experience. The Indian infrastructure boom (roads, bridges, metro systems, smart cities) is driving significant demand. BIM (Building Information Modelling) is becoming mandatory on large projects — structural engineers with BIM skills command a premium. Career path: Junior Engineer → Senior Engineer → Project Manager → Technical Director. Salary: Entry 3-5 LPA, Mid 8-15 LPA, Senior 18-30 LPA. Lower than IT but stable demand and clear progression.",
+    "metadata": {
+      "doc_id": "doc_082",
+      "source": "Manual",
+      "domain": "Civil & Infrastructure Engineering",
+      "doc_type": "role_description",
+      "role_title": "Structural Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_083",
+    "text": "Sales Engineer bridges technical product knowledge and sales in B2B technology companies. Responsibilities include conducting product demonstrations, answering technical questions during the sales process, writing technical proposals, and supporting customer onboarding. This is an excellent path for engineers who enjoy human interaction and have strong communication skills but want to stay close to technology. Required: deep product knowledge, presentation skills, ability to translate technical complexity into business value, and CRM proficiency. Salary: Entry 6-12 LPA, Mid 16-28 LPA including variable. Senior Sales Engineers and Solutions Architects earn 30-55 LPA. The path leads to VP Sales or back to product/engineering management. This is one of the least known but most financially rewarding career pivots for engineers.",
+    "metadata": {
+      "doc_id": "doc_083",
+      "source": "Manual",
+      "domain": "Sales & Business Development",
+      "doc_type": "role_description",
+      "role_title": "Sales Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_084",
+    "text": "Associate Professor at engineering college in India: teaching at a private engineering college provides stable employment, summers off, and the ability to pursue research alongside teaching. The path requires either MTech with NET qualification or PhD. Salary at private colleges: 6-12 LPA. Government college (NIT, IIT) Assistant Professor: 14-20 LPA with 7th Pay Commission benefits. The lifestyle is significantly different from industry — more autonomy, academic freedom, and intellectual depth on specific topics. The challenge is the significant salary cut from industry. Engineers who have built industry experience first and then return to academics bring practical relevance that pure academics lack — students value this enormously. Research publication is increasingly important for career progression in academia.",
+    "metadata": {
+      "doc_id": "doc_084",
+      "source": "Manual",
+      "domain": "Research & Academia",
+      "doc_type": "role_description",
+      "role_title": "Assistant Professor",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_085",
+    "text": "Nisha was a software engineer at a large IT company for 5 years. She had her first child at 30 and took a 14-month career break. When she tried to return, she found her skills had become partially outdated — her JavaScript knowledge was fine but she had missed the React transition. She spent 3 months on targeted upskilling: completed a React course, built two projects, updated her GitHub. She applied to return-to-work programs at IBM and Accenture simultaneously. IBM offered a role at her previous seniority level with a 15% salary increment. The key to her success was that she was specific about her skill gap and addressed it directly rather than hoping interviewers would overlook it. She now mentors other women returning from career breaks as a volunteer activity.",
+    "metadata": {
+      "doc_id": "doc_085",
+      "source": "Manual",
+      "domain": "Full Stack Web Development",
+      "doc_type": "career_story",
+      "role_title": "Frontend Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_086",
+    "text": "Engineer to EdTech: 12-month detailed transition plan for India. Month 1-2: Identify your teaching domain (the subject you know best from your engineering work). Create 3 sample lessons on YouTube or as written tutorials. Month 3-4: Get feedback from learners. Apply to teach part-time at one platform (Coding Ninjas, GUVI, or local bootcamps). Month 5-6: Build a portfolio of learner outcomes — document who you taught and what they achieved. Month 7-9: Apply to full-time EdTech roles with your portfolio. Target companies: Scaler, upGrad, Simplilearn, Newton School, Masai School. Month 10-12: If hired, immerse yourself in instructional design principles — take the Google Instructional Design course (free). Month 12+: Start building curriculum, not just delivering it. The salary dip in months 1-9 is real — plan finances accordingly.",
+    "metadata": {
+      "doc_id": "doc_086",
+      "source": "Manual",
+      "domain": "EdTech & Technical Education",
+      "doc_type": "transition_path",
+      "role_title": "Technical Educator",
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_087",
+    "text": "Burnout among Indian software engineers: a 2024 survey found that 67% of Indian software engineers report moderate to severe burnout. The primary drivers are unrealistic deadlines, lack of autonomy, repetitive work, poor management, and limited career growth visibility. Burnout is not laziness — it is a clinical condition that requires recovery time and often professional support. Warning signs: chronic fatigue, cynicism about work, reduced performance, and physical symptoms (headaches, sleep disruption). Recovery paths that work: structured time off (minimum 4-6 weeks), therapy or coaching, deliberate career re-evaluation, and transitioning to roles with greater autonomy and purpose. EdTech, research, and product roles consistently score higher on autonomy and purpose than IT services engineering roles. Burnout recovery and career transition can happen simultaneously but must be paced carefully.",
+    "metadata": {
+      "doc_id": "doc_087",
+      "source": "Manual",
+      "domain": "EdTech & Technical Education",
+      "doc_type": "industry_trend",
+      "role_title": null,
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_088",
+    "text": "Python is the most important programming language for career transitions in India's tech sector. It serves as the foundation for data science, machine learning, backend development, automation, and DevOps scripting. Engineers from non-Python backgrounds (Java, C++, C#) who add Python fluency open up significantly more career options. The learning curve is gentle — most engineers reach basic proficiency in 4-6 weeks and project-level proficiency in 3-4 months. Key Python libraries by domain: data science (pandas, NumPy, scikit-learn), ML (TensorFlow, PyTorch, HuggingFace), backend (FastAPI, Django), automation (requests, selenium, beautiful soup), and DevOps (boto3 for AWS, ansible). Python proficiency is now effectively a baseline expectation for any engineering interview at product companies regardless of role.",
+    "metadata": {
+      "doc_id": "doc_088",
+      "source": "Manual",
+      "domain": "AI & ML",
+      "doc_type": "skill_requirements",
+      "role_title": null,
+      "experience_level": "Entry",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_089",
+    "text": "Remote work opportunities for Indian engineers have expanded dramatically post-2020. Indian engineers now work for US, European, and Australian companies remotely, earning salaries that are significantly higher than local market rates — often 2-5x. Platforms like Toptal, Turing, Arc.dev, and Deel facilitate international remote hiring. The tax and compliance complexity of international remote work is real — engineers should register as freelancers or set up a private limited company to handle foreign remittances legally. Skills most in demand for international remote work: full-stack JavaScript (React + Node), Python/ML, Go, and Rust. Communication skills and timezone overlap with the hiring company's location are critical selection factors. Remote work significantly improves work-life balance and eliminates commute stress — particularly important for new parents.",
+    "metadata": {
+      "doc_id": "doc_089",
+      "source": "Manual",
+      "domain": "Full Stack Web Development",
+      "doc_type": "industry_trend",
+      "role_title": null,
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  },
+  {
+    "doc_id": "doc_090",
+    "text": "Prompt Engineer and AI Interaction Designer is an emerging role focused on designing effective prompts and interaction patterns for AI systems. As LLMs become embedded in products, the need for specialists who can craft precise, reliable prompts and evaluate model outputs grows. Required skills: deep understanding of LLM behaviour and limitations, systematic experimental approach, ability to evaluate output quality, and domain expertise in the product area. This role is typically a specialisation within ML engineering, product management, or UX design rather than a standalone career. In India, the role is most common at AI-first startups and the AI divisions of large tech companies. Salary: 15-35 LPA depending on the company and the engineer's complementary skills. This role will likely evolve as model capabilities improve.",
+    "metadata": {
+      "doc_id": "doc_090",
+      "source": "Manual",
+      "domain": "AI & ML",
+      "doc_type": "role_description",
+      "role_title": "Prompt Engineer",
+      "experience_level": "Mid",
+      "region": "India",
+      "last_scraped": "2026-03-08"
+    }
+  }
+]
