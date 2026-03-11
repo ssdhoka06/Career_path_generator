@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from typing import Optional
 from enum import Enum
 
@@ -26,37 +26,38 @@ class RiskLevel(str, Enum):
 # ──────────────────────────────────────────────
 
 class UserProfile(BaseModel):
-    user_id: str
-    full_name: str
+    model_config = ConfigDict(populate_by_name=True)
+
+    user_id: str = Field(default="", alias="userId")
+    full_name: str = Field(alias="fullName")
     age: int
     gender: str
-    location_city: str
-    location_state: str
-    highest_degree: str
-    field_of_study: str
-    institution_tier: str
-    current_role: str
-    current_industry: str
-    years_of_experience: float
-    employment_status: str
-    current_salary_lpa: float
-    technical_skills: list[str]
-    soft_skills: list[str]
+    location_city: str = Field(alias="locationCity")
+    location_state: str = Field(alias="locationState")
+    highest_degree: str = Field(alias="highestDegree")
+    field_of_study: str = Field(alias="fieldOfStudy")
+    institution_tier: str = Field(alias="institutionTier")
+    current_role: str = Field(alias="currentRole")
+    current_industry: str = Field(alias="currentIndustry")
+    years_of_experience: float = Field(alias="yearsOfExperience")
+    employment_status: str = Field(alias="employmentStatus")
+    current_salary_lpa: float = Field(alias="currentSalaryLpa")
+    technical_skills: list[str] = Field(alias="technicalSkills")
+    soft_skills: list[str] = Field(alias="softSkills")
     certifications: list[str]
-    interest_domains: list[str]
-    career_goal: str
-    preferred_work_style: str
-    willing_to_relocate: bool
-    target_timeline_years: int
-    life_stage: str
-    burnout_level: int
-    stress_tolerance: int
-    has_dependents: bool
-    recent_life_event: str
-    work_life_priority: str
-    leadership_score: float
-    alignment_category: str
-
+    interest_domains: list[str] = Field(alias="interestDomains")
+    career_goal: str = Field(alias="careerGoal")
+    preferred_work_style: str = Field(alias="preferredWorkStyle")
+    willing_to_relocate: bool = Field(alias="willingToRelocate")
+    target_timeline_years: int = Field(alias="targetTimelineYears")
+    life_stage: str = Field(alias="lifeStage")
+    burnout_level: int = Field(alias="burnoutLevel")
+    stress_tolerance: int = Field(alias="stressTolerance")
+    has_dependents: bool = Field(alias="hasDependents")
+    recent_life_event: str = Field(alias="recentLifeEvent")
+    work_life_priority: str = Field(alias="workLifePriority")
+    leadership_score: float = Field(alias="leadershipScore")
+    alignment_category: str = Field(alias="alignmentCategory")
 
 # ──────────────────────────────────────────────
 # RAG Request / Response (contract with backend)
