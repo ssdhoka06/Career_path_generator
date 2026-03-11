@@ -4,37 +4,86 @@ import { z } from 'zod';
 // ─── Auth Schemas ─────────────────────────────────────────────────────────────
 
 export const RegisterSchema = z.object({
-  name: z.string().min(2, 'Name must be at least 2 characters').max(100),
-  email: z.string().email('Invalid email address'),
+  name: z.string().min(2).max(100),
+  email: z.string().email(),
   password: z
     .string()
-    .min(8, 'Password must be at least 8 characters')
-    .regex(/[A-Z]/, 'Password must contain at least one uppercase letter')
-    .regex(/[0-9]/, 'Password must contain at least one number'),
+    .min(8)
+    .regex(/[A-Z]/, 'Must contain at least one uppercase letter')
+    .regex(/[0-9]/, 'Must contain at least one number'),
 });
 
 export const LoginSchema = z.object({
-  email: z.string().email('Invalid email address'),
-  password: z.string().min(1, 'Password is required'),
+  email: z.string().email(),
+  password: z.string().min(1),
 });
 
-// ─── Profile Schemas ──────────────────────────────────────────────────────────
+// ─── Profile Schema (matches Sachi's UserProfile exactly) ────────────────────
 
 export const ProfileSchema = z.object({
-  skills: z
-    .array(z.string().min(1).max(50))
-    .min(1, 'At least one skill is required')
-    .max(20, 'Maximum 20 skills allowed'),
-  domain: z.string().min(2, 'Domain is required').max(100),
-  experience: z.enum(['0-2', '2-5', '5-10', '10+'], {
-    errorMap: () => ({ message: 'Experience must be one of: 0-2, 2-5, 5-10, 10+' }),
-  }),
-  lifeStage: z.enum(['student', 'early', 'mid', 'senior', 'transition'], {
-    errorMap: () => ({ message: 'Life stage must be one of: student, early, mid, senior, transition' }),
-  }),
+  // Personal info
+  fullName:      z.string().min(2).max(100),
+  age:           z.number().int().min(16).max(80),
+  gender:        z.string().min(1),
+  locationCity:  z.string().min(1),
+  locationState: z.string().min(1),
+
+  // Education
+  highestDegree:   z.string().min(1),
+  fieldOfStudy:    z.string().min(1),
+  institutionTier: z.enum(['Tier 1', 'Tier 2', 'Tier 3']),
+
+  // Career current state
+  currentRole:       z.string().min(1),
+  currentIndustry:   z.string().min(1),
+  yearsOfExperience: z.number().min(0).max(60),
+  employmentStatus:  z.enum([
+    'Employed Full-Time',
+    'Employed Part-Time',
+    'Self-Employed',
+    'Unemployed',
+    'Student',
+    'Career Break',
+  ]),
+  currentSalaryLpa: z.number().min(0),
+
+  // Skills
+  technicalSkills: z.array(z.string()).min(1).max(30),
+  softSkills:      z.array(z.string()).max(20).default([]),
+  certifications:  z.array(z.string()).max(20).default([]),
+
+  // Goals & preferences
+  interestDomains:     z.array(z.string()).min(1).max(10),
+  careerGoal:          z.string().min(5).max(500),
+  preferredWorkStyle:  z.enum(['Remote', 'Hybrid', 'On-site']),
+  willingToRelocate:   z.boolean(),
+  targetTimelineYears: z.number().int().min(1).max(10),
+
+  // Life context
+  lifeStage: z.enum([
+    'Early Career',
+    'Mid Career',
+    'Late Career',
+    'Career Break',
+    'Re-entering Workforce',
+  ]),
+  burnoutLevel:    z.number().int().min(1).max(10),
+  stressTolerance: z.number().int().min(1).max(10),
+  hasDependents:   z.boolean(),
+  recentLifeEvent: z.string().default('None'),
+  workLifePriority: z.enum([
+    'Career Growth',
+    'Work-Life Balance',
+    'Financial Stability',
+    'Personal Fulfilment',
+  ]),
+
+  // Assessment
+  leadershipScore:   z.number().min(0).max(10),
+  alignmentCategory: z.enum(['Low', 'Moderate', 'High']),
 });
 
-// ─── Roadmap Schemas ──────────────────────────────────────────────────────────
+// ─── Roadmap Schema ───────────────────────────────────────────────────────────
 
 export const RoadmapRequestSchema = z.object({
   profileId: z.string().uuid('Invalid profile ID'),
@@ -42,7 +91,7 @@ export const RoadmapRequestSchema = z.object({
 
 // ─── Type Exports ─────────────────────────────────────────────────────────────
 
-export type RegisterInput = z.infer<typeof RegisterSchema>;
-export type LoginInput = z.infer<typeof LoginSchema>;
-export type ProfileInput = z.infer<typeof ProfileSchema>;
+export type RegisterInput    = z.infer<typeof RegisterSchema>;
+export type LoginInput       = z.infer<typeof LoginSchema>;
+export type ProfileInput     = z.infer<typeof ProfileSchema>;
 export type RoadmapRequestInput = z.infer<typeof RoadmapRequestSchema>;

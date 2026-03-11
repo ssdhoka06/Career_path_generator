@@ -5,8 +5,6 @@ import { requireAuth } from '../middleware/auth';
 import { ProfileSchema } from '../schemas';
 
 const router = Router();
-
-// All profile routes require authentication
 router.use(requireAuth);
 
 // ─── POST /api/profile ────────────────────────────────────────────────────────
@@ -18,10 +16,41 @@ router.post('/', async (req: Request, res: Response) => {
   }
 
   const userId = req.user!.userId;
-  const { skills, domain, experience, lifeStage } = parsed.data;
+  const d = parsed.data;
 
   const profile = await prisma.profile.create({
-    data: { userId, skills, domain, experience, lifeStage },
+    data: {
+      userId,
+      fullName:            d.fullName,
+      age:                 d.age,
+      gender:              d.gender,
+      locationCity:        d.locationCity,
+      locationState:       d.locationState,
+      highestDegree:       d.highestDegree,
+      fieldOfStudy:        d.fieldOfStudy,
+      institutionTier:     d.institutionTier,
+      currentRole:         d.currentRole,
+      currentIndustry:     d.currentIndustry,
+      yearsOfExperience:   d.yearsOfExperience,
+      employmentStatus:    d.employmentStatus,
+      currentSalaryLpa:    d.currentSalaryLpa,
+      technicalSkills:     d.technicalSkills,
+      softSkills:          d.softSkills,
+      certifications:      d.certifications,
+      interestDomains:     d.interestDomains,
+      careerGoal:          d.careerGoal,
+      preferredWorkStyle:  d.preferredWorkStyle,
+      willingToRelocate:   d.willingToRelocate,
+      targetTimelineYears: d.targetTimelineYears,
+      lifeStage:           d.lifeStage,
+      burnoutLevel:        d.burnoutLevel,
+      stressTolerance:     d.stressTolerance,
+      hasDependents:       d.hasDependents,
+      recentLifeEvent:     d.recentLifeEvent,
+      workLifePriority:    d.workLifePriority,
+      leadershipScore:     d.leadershipScore,
+      alignmentCategory:   d.alignmentCategory,
+    },
   });
 
   res.status(201).json({ profileId: profile.id, saved: true, profile });
@@ -32,10 +61,7 @@ router.get('/:id', async (req: Request, res: Response) => {
   const { id } = req.params;
   const userId = req.user!.userId;
 
-  const profile = await prisma.profile.findFirst({
-    where: { id, userId }, // ensure user can only access own profile
-  });
-
+  const profile = await prisma.profile.findFirst({ where: { id, userId } });
   if (!profile) {
     res.status(404).json({ error: 'Profile not found' });
     return;
@@ -44,15 +70,13 @@ router.get('/:id', async (req: Request, res: Response) => {
   res.json(profile);
 });
 
-// ─── GET /api/profile (list all profiles for current user) ───────────────────
+// ─── GET /api/profile ─────────────────────────────────────────────────────────
 router.get('/', async (req: Request, res: Response) => {
   const userId = req.user!.userId;
-
   const profiles = await prisma.profile.findMany({
     where: { userId },
     orderBy: { createdAt: 'desc' },
   });
-
   res.json({ profiles, count: profiles.length });
 });
 

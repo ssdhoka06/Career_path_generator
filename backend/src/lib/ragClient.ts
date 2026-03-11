@@ -1,33 +1,107 @@
 // src/lib/ragClient.ts
-import { Profile } from '@prisma/client';
+// Matches Sachi's (Person 3) exact models.py contract
 
 const RAG_URL = process.env.RAG_SERVICE_URL ?? 'http://localhost:8000';
 const TIMEOUT_MS = parseInt(process.env.RAG_TIMEOUT_MS ?? '30000', 10);
 
-export interface RagResponse {
-  roadmap: {
-    title: string;
-    summary: string;
-    steps: Array<{
-      id: string;
-      title: string;
-      description: string;
-      duration: string;
-      skills: string[];
-      resources: string[];
-    }>;
-    probability: number;
-  };
-  explanation: string;
-  auditScores: Array<{
-    dimension: string;
-    score: number;
-    risk: 'low' | 'medium' | 'high';
-    explanation: string;
-  }>;
+// ─── Request Types (matching Sachi's UserProfile model) ───────────────────────
+
+export interface RagProfile {
+  user_id: string;
+  full_name: string;
+  age: number;
+  gender: string;
+  location_city: string;
+  location_state: string;
+  highest_degree: string;
+  field_of_study: string;
+  institution_tier: string;
+  current_role: string;
+  current_industry: string;
+  years_of_experience: number;
+  employment_status: string;
+  current_salary_lpa: number;
+  technical_skills: string[];
+  soft_skills: string[];
+  certifications: string[];
+  interest_domains: string[];
+  career_goal: string;
+  preferred_work_style: string;
+  willing_to_relocate: boolean;
+  target_timeline_years: number;
+  life_stage: string;
+  burnout_level: number;
+  stress_tolerance: number;
+  has_dependents: boolean;
+  recent_life_event: string;
+  work_life_priority: string;
+  leadership_score: number;
+  alignment_category: string;
 }
 
-export async function callRagGenerate(profile: Profile): Promise<RagResponse> {
+// ─── Response Types (matching Sachi's RagGenerateResponse model) ──────────────
+
+export interface RoadmapNode {
+  node_id: string;
+  role_title: string;
+  node_order: number;
+  timeline_months: number;
+  required_skills: string[];
+  skill_gap: string[];
+  salary_estimate_lpa: number;
+  risk_level: 'Low' | 'Medium' | 'High';
+  description: string;
+}
+
+export interface RoadmapEdge {
+  source: string;
+  target: string;
+  label: string;
+}
+
+export interface AlternativePath {
+  path_name: string;
+  roles: string[];
+  total_months: number;
+  success_probability: number;
+}
+
+export interface EmotionalForecast {
+  phase: string;
+  timeline: string;
+  stress_level: string;
+  description: string;
+}
+
+export interface AuditScore {
+  dimension: string;
+  framework: string;
+  score: number;
+  risk_level: 'Low' | 'Medium' | 'High';
+  explanation: string;
+  recommendation: string;
+  flagged_biases: string[];
+}
+
+export interface RagResponse {
+  roadmap_nodes: RoadmapNode[];
+  roadmap_edges: RoadmapEdge[];
+  current_role: string;
+  target_role: string;
+  success_probability: number;
+  total_transition_months: number;
+  explanation: string;
+  emotional_forecast: EmotionalForecast[];
+  alternative_paths: AlternativePath[];
+  audit_scores: AuditScore[];
+  retrieved_doc_ids: string[];
+  model_used: string;
+  cached: boolean;
+}
+
+// ─── Main caller ──────────────────────────────────────────────────────────────
+
+export async function callRagGenerate(ragProfile: RagProfile): Promise<RagResponse> {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
 
@@ -36,14 +110,8 @@ export async function callRagGenerate(profile: Profile): Promise<RagResponse> {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        profile: {
-          id: profile.id,
-          skills: profile.skills,
-          domain: profile.domain,
-          experience: profile.experience,
-          lifeStage: profile.lifeStage,
-        },
-        topK: 5,
+        profile: ragProfile,
+        top_k: 5,
       }),
       signal: controller.signal,
     });
